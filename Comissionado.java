@@ -8,11 +8,17 @@ package trabalho.tcsc.CLASSES;
  *
  * @author al1410644
  */
-public class Comissionado extends Empregado{
+public class Comissionado {
     
     private long empregado;
     private float totalVenda;
     private float taxaComissao;
+
+    public Comissionado(long empregado, float totalVenda, float taxaComissao) {
+        this.empregado = empregado;
+        this.totalVenda = totalVenda;
+        this.taxaComissao = taxaComissao;
+    }
 
     public long getEmpregado() {
         return empregado;

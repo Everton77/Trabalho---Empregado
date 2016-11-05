@@ -8,11 +8,17 @@ package trabalho.tcsc.CLASSES;
  *
  * @author al1410644
  */
-public class Horista extends Empregado{
+public class Horista {
     
     private long empregado;
     private float precoHora;
     private float horasTrabalhadas; 
+
+    public Horista(long empregado, float precoHora, float horasTrabalhadas) {
+        this.empregado = empregado;
+        this.precoHora = precoHora;
+        this.horasTrabalhadas = horasTrabalhadas;
+    }
 
     public long getEmpregado() {
         return empregado;

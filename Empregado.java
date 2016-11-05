@@ -15,6 +15,12 @@ public class Empregado {
     private String sobrenome;
     private String cpf;
 
+    public Empregado(long codigo, String nome, String sobrenome) {
+        this.codigo = codigo;
+        this.nome = nome;
+        this.sobrenome = sobrenome;
+    } 
+
     public long getCodigo() {
         return codigo;
     }
